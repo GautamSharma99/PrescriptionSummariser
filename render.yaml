@@ -1,8 +1,11 @@
 services:
   - type: web
-    name: PrescriptionScanner
+    name: prescription-summarizer
     env: python
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     region: oregon
     plan: free
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false

@@ -1,3 +1,4 @@
-Flask
-google-generativeai
-PyPDF2
+flask==2.3.3
+google-generativeai==0.3.2
+PyPDF2==3.0.1
+gunicorn==21.2.0
