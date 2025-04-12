@@ -8,7 +8,7 @@ import tempfile
 app = Flask(__name__)
 
 # Configure API key
-API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyAe6idUrm8K9TLIGMg9aDvA-OmaPoSDYK0")  # Get from environment or use default
+API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyBnbRuvRY_4LxRSJt4wePIjcnz9AK7Eydo")  # Get from environment or use default
 genai.configure(api_key=API_KEY)
 
 
